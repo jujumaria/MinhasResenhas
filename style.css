@@ -145,11 +145,10 @@
   }
 
 
-  .normalpeople img{
-      float: left;
-      background-color: #a044ff;
-      
-  }
-  .normalpeople {
-      background-color: #a044ff;
+ 
+  .normalpeople p{
+      background: rgb(139, 109, 148);
+      width: 100%;
+      height: 100%;
+
   }
