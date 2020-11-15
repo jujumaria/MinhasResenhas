@@ -216,12 +216,12 @@
   .conhecimentos-img-wrapper{
     grid-column: 7 / 11;
     grid-row: 2 / 6;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
   }
   .conhecimentos-img-wrapper img {
     object-fit: cover;
-    width: ;: 100%;
+    width: 100%;
   }
   
   .normalpeople p{
