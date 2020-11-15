@@ -224,13 +224,37 @@
     width: 100%;
   }
   
-  .normalpeople p{
+  .normalpeople {
       background: rgb(139, 109, 148);
       width: 100%;
       height: 100%;
       border: 1px solid #000;
-      text-align: center;
+      
+      float: right;
       
 
   }
- 
+  .normalpeople img{
+    float: left;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    
+    
+   }
+ .dashelily img{
+  float:  right;
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  
+ }
+  .dashelily {
+    background: rgb(199, 120, 166);
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    float: left;
+    
+
+}
