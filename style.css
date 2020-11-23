@@ -1,5 +1,5 @@
 /*fontes pegadas do site da google */
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Muli:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:ital@1&family=Nerko+One&family=Open+Sans&display=swap');
 /*icons */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 *{
@@ -11,15 +11,18 @@
   }
   /* fontes padroes*/
   :root{
-    --font-primary:"Baloo Da 2", serif;
-    --font-secundary:"Josefin Slab", serif;
-    --font--action:"Muli",serif;
+    --font-primary:"Lato", serif;
+    --font-secundary:"Open Sans", serif;
+    --font--action:"Libre Baskerville",serif;
+    --font--ter:"Nerko One",serif;
   }
   body{
     font-size: 16px;
   }
  
-  
+  .titulo{
+    text-align: center;
+  }
   .hamburguer{
     /*background-color: red;*/
     width: 2rem;
@@ -223,9 +226,28 @@
     object-fit: cover;
     width: 100%;
   }
-  .container-serie h1{
-    text-align: center
+  .container h1{
+    font-family: var(--font-primary);
+    text-align: center;
     }
+    .container h2{
+      font-family: var(--font--ter);
+      text-align: center;
+      font-size: 5rem;
+      
+      }
+    .container p{
+      font-family: var(--font-secundary);
+      font-size: medium;
+      
+      }
+
+.container iframe{
+  width: 100%;
+  height: 200vh;
+  border: none;
+  scroll-margin: none;
+}
   .normalpeople {
       background: rgb(139, 109, 148);
       width: 100%;
@@ -283,3 +305,4 @@ object-fit: cover;
 
 
 }
+
